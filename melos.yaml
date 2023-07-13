@@ -1,5 +1,5 @@
 name: flutter_plugins
-repository: https://github.com/TryImpossible/flutter-plugins
+repository: https://github.com/AreYReady/flutter-plugins
 
 packages:
   # Include the package in the workspace root.
