@@ -182,7 +182,7 @@ class _COSClientBase {
       request.headers.addAll(headers);
     }
     request.headers['Host'] = uri.authority;
-    request.headers['Date'] = formatHttpDate(DateTime.now());
+    // request.headers['Date'] = formatHttpDate(DateTime.now());
 
     final String authorization = _generateSign(
       method: request.method,
